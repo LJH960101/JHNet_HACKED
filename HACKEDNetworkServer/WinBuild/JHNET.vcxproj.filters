@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\JHNETGameServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\JHNETTool.cpp">
+      <Filter>Source Files\NetworkModule</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\Log.cpp">
+      <Filter>Source Files\NetworkModule</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\Serializer.cpp">
+      <Filter>Source Files\NetworkModule</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\Spinlock.cpp">
+      <Filter>Source Files\NetworkModule</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\MPSCQueue.cpp">
+      <Filter>Source Files\NetworkModule</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\ConfigParser\ConfigParser.cpp">
+      <Filter>Source Files\NetworkModule\ConfigParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\GameProcessor.cpp">
+      <Filter>Source Files\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\Manager\PlayerManager.cpp">
+      <Filter>Source Files\Processor\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\Manager\RoomManager.cpp">
+      <Filter>Source Files\Processor\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\Player.cpp">
+      <Filter>Source Files\Processor\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\Room.cpp">
+      <Filter>Source Files\Processor\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\Socket.cpp">
+      <Filter>Source Files\Processor\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Server\EpollServer.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Server\IOCPServer.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Server\ServerNetworkSystem.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\TCP\TCPReceiveProcessor.cpp">
+      <Filter>Source Files\Processor\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JH\Desktop\3.15\Server\Processor\UDP\UDPReceiveProcessor.cpp">
+      <Filter>Source Files\Processor\UDP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\JHNETGameServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\JHNETTool.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\Log.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\NetworkData.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\PacketStruct.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\PacketStructMacro.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\Serializer.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\UtilityMacro.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\Spinlock.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\MPSCQueue.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\MessageQueue.h">
+      <Filter>Header Files\NetworkModule</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\NetworkModule\ConfigParser\ConfigParser.h">
+      <Filter>Header Files\NetworkModule\ConfigParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\GameProcessor.h">
+      <Filter>Header Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\GameProcessorMessage.h">
+      <Filter>Header Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\Manager\PlayerManager.h">
+      <Filter>Header Files\Processor\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\Manager\RoomManager.h">
+      <Filter>Header Files\Processor\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\GameState.h">
+      <Filter>Header Files\Processor\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\ObjectPool.h">
+      <Filter>Header Files\Processor\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\Overlapped.h">
+      <Filter>Header Files\Processor\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\Player.h">
+      <Filter>Header Files\Processor\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\Room.h">
+      <Filter>Header Files\Processor\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\DataType\Socket.h">
+      <Filter>Header Files\Processor\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Server\EpollServer.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Server\IOCPServer.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Server\ServerNetworkSystem.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\TCP\TCPReceiveProcessor.h">
+      <Filter>Header Files\Processor\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JH\Desktop\3.15\Server\Processor\UDP\UDPReceiveProcessor.h">
+      <Filter>Header Files\Processor\UDP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JH\Desktop\3.15\Server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{115A6680-8C80-31BD-B76F-9047C044C905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetworkModule">
+      <UniqueIdentifier>{DE5C46E2-F771-39E8-8BBB-D1470302432D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetworkModule\ConfigParser">
+      <UniqueIdentifier>{587A4BBF-5D3A-3EDC-BD35-0DFBFD7B8912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processor">
+      <UniqueIdentifier>{1A4F5838-191D-364A-933F-413E0D8215F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processor\DataType">
+      <UniqueIdentifier>{F71D64FC-9F3D-3EDD-9AAA-CD97C342615C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processor\Manager">
+      <UniqueIdentifier>{7AC049AD-89FA-3004-B4E7-354BF067BFB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processor\TCP">
+      <UniqueIdentifier>{EEFF3FDE-A0CC-3322-BF80-E39DDAD92AAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processor\UDP">
+      <UniqueIdentifier>{9BF1A482-0C3A-3129-AD1C-71A0B1A46A35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server">
+      <UniqueIdentifier>{54A9B419-8DE0-3FEF-A3D5-6E40A22DFC03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5C4485D3-DCE9-38F3-8532-C7EFAF640EED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetworkModule">
+      <UniqueIdentifier>{D445B3FC-05CC-31F6-A739-D0C775E039F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetworkModule\ConfigParser">
+      <UniqueIdentifier>{C09343FE-01E9-32A6-93B1-720582D36DB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor">
+      <UniqueIdentifier>{1329C220-C46D-374D-8153-6C23E37B983E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor\DataType">
+      <UniqueIdentifier>{FEE4D98E-66CA-3AF4-9CB1-72782E7272CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor\Manager">
+      <UniqueIdentifier>{40B56130-C00A-398B-A0AF-6EC5D9213F22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor\TCP">
+      <UniqueIdentifier>{99DDA549-DF6C-3F2B-92E3-0268276336BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor\UDP">
+      <UniqueIdentifier>{26FF9AE5-B142-383F-8DF2-38A6913C733F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{CDF167B7-D7A6-332F-9D0E-B138439D3F09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
